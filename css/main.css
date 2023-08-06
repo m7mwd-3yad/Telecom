@@ -1,0 +1,740 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(39, 38, 38);
+    
+}
+
+.container {
+    height: auto;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.home .nav {
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 0px;
+}
+
+.bar {
+    display: none;
+}
+
+.home .nav ul {
+    padding: 30px;
+    display: flex;
+
+}
+
+.home .nav ul li {
+    overflow: auto;
+    float: left;
+
+}
+
+.home .nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.home .nav ul li a:hover {
+    transition: .5s;
+    color: red;
+}
+
+.home .nav ul li.edi {
+    margin-top: 16px;
+}
+
+/*edit*/
+.home .nav .logo {
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  
+}
+
+.home .nav ul .get {
+    padding: 10px 25px;
+    border: 1px white solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+   
+}
+
+.home .nav ul .get a {
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.home .nav ul .get:hover {
+    background-color: red;
+    color: white;
+    transition: .5s;
+}
+
+
+/*end*/
+
+.cabtion {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 80px;
+    padding-bottom: 75px;
+
+}
+
+.cabtion .child {
+    margin: 20px;
+    padding: 20px;
+    text-align: right;
+}
+
+h1 {
+    text-align: right;
+    font-size: 48px;
+    color: rgb(196, 196, 196);
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 35px;
+}
+
+.cabtion .child img {
+    width: 548px;
+    height: 204px;
+    text-align: center;
+    animation-name: logo-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes logo-move {
+    50% {
+        transform: translatey(20px);
+      }
+    }
+
+.cabtion .child p {
+    font-size: 25px;
+    color: rgb(196, 196, 196);
+    width: 605px;
+    height: 80px;
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+.cabtion .child a {
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 1px blue;
+    background-color: rgb(185, 14, 14);
+    font-size: 18px;
+    color: white;
+
+}
+
+.cabtion .child a:hover {
+    background-color: blue;
+    box-shadow: 0px 2px 15px 1px red;
+    transition: .5s;
+}
+
+.home .nav .logo {
+    list-style-type: none;
+    padding-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* ---------------- end -----------------*/
+
+.service {
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.service>h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.service>p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.service .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 200px;
+}
+
+.service .parent .child {
+    width: 22%;
+    background-color: rgb(81, 81, 81);
+
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.service .parent .child>h2 {
+    color: white;
+    padding: 30px 5px;
+}
+
+.service .parent .child>h2:hover {
+    color: red;
+    transition: .5s;
+
+}
+
+/* ------------------ end --------------- */
+
+.client {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.client .child {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.client .child h2 {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.client .child p {
+    color: white;
+    padding: 0px 285px;
+
+}
+
+/* -------------- end ------------*/
+.comunicat {
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center center;
+    align-items: center;
+}
+
+.comunicat>h2 {
+    color: white;
+    margin: 10px;
+
+}
+
+.comunicat>p {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.comunicat .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0px;
+
+
+}
+
+.comunicat .parent .child {
+
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background-color: rgb(81, 81, 81);
+    border-top: red 8px solid;
+    border-bottom: red 8px solid;
+    margin-right: 65px;
+
+}
+
+
+.cd130 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: end;
+    padding: 10px 0px;
+}
+
+.cd130>h6 {
+    color: white;
+    font-size: 16px;
+    text-align: right;
+}
+
+.cd131 input {
+    width: 272px;
+    height: 31px;
+    margin: 10px;
+    background-color: rgb(48, 47, 47);
+}
+
+.cd132>h6 {
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+
+}
+
+.cd132 input {
+    width: 570px;
+    height: 31px;
+    background-color: rgb(48, 47, 47);
+}
+
+.cd133>h6 {
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.cd133 textarea {
+   width: 572px;
+    height: 261px;
+    background-color: rgb(48, 47, 47);
+    border: white 1px solid;
+
+}
+
+.cd134 button {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px solid black;
+    background-color: red;
+    color: white;
+    transition: all 0.5s;
+    margin: 20px;
+}
+
+.cd134 button:hover {
+    background-color: blue;
+    color: white;
+    transition: .5s;
+}
+
+/*------------------- end  ------------------- */
+
+.location {
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 0px 10px;
+    background-color: rgb(81, 81, 81);
+
+    border-top: 8px red solid;
+    border-bottom: 8px red solid;
+}
+
+.location .cd140 {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.location p,
+h6 {
+    color: white;
+    text-align: right;
+    margin: 5px;
+    margin-left: 150px;
+    font-size: 16px;
+
+}
+
+.location .cd140 .icon1>i {
+    width: 40px;
+    height: 35px;
+    padding-top: 15px;
+    color: red;
+    background-color: rgb(48, 47, 47);
+    border-radius: 50%;
+}
+
+.location .cd140 .icon1>i:hover {
+    background-color: red;
+    color: rgb(48, 47, 47);
+    transition: .5s;
+
+}
+
+.location .cd141 {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.location .cd141 .icon2>i {
+    width: 40px;
+    height: 35px;
+    padding-top: 15px;
+    color: red;
+    background-color: rgb(48, 47, 47);
+    border-radius: 50%;
+}
+
+.location .cd141 .icon2>i:hover {
+    background-color: red;
+    color: rgb(48, 47, 47);
+    transition: .5s;
+
+}
+
+.location .cd142 {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.location .cd142 .icon3>i {
+    width: 40px;
+    height: 35px;
+    padding-top: 15px;
+    color: red;
+    background-color: rgb(48, 47, 47);
+    border-radius: 50%;
+}
+
+.location .cd142 .icon3>i:hover {
+    background-color: red;
+    color: rgb(48, 47, 47);
+    transition: .5s;
+
+}
+
+.location iframe {
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+/*-------------- the end for the wibsite -------------------- */
+
+.end {
+    width: 75%;
+    text-align: center;
+    padding: 0px 50px;
+    border-left: 8px red solid;
+    border-right: 8px red solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    background-color: rgb(81, 81, 81);
+
+}
+
+.end>h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.end .child {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.child .contact1 {
+    margin: 15px;
+    margin-right: auto;
+    color: white;
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+.child .contact2 {
+    margin: 15px;
+    padding: 0px 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.child .contact2 span {
+    color: red;
+    cursor: pointer;
+}
+
+.child .contact2 span:hover {
+    color: blue;
+    transition: .5s;
+}
+
+
+
+
+
+
+/* ------------------- finaly the end --------------------- */
+
+
+@media(max-width:550px) {
+    .home .nav ul {
+        display: none;
+    }
+.home .nav {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    flex-wrap: wrap;
+    }
+    .bar {
+        display: contents;
+    }
+     .home .nav i {
+        color: white;
+        text-align: right;
+        font-size: 25px;
+    padding: 30px 0px;
+    margin-left: 35px;
+    margin-top: 8px;
+    } 
+
+ 
+
+    .cabtion .child img {
+        width: 360px;
+        height: 145px;
+        text-align: center;
+    }
+
+    .cabtion .child {
+        text-align: center;
+
+    }
+
+    .cabtion .child h1 {
+        text-align: center;
+    }
+
+    .cabtion .child p {
+        font-size: 25px;
+        color: rgb(196, 196, 196);
+        width: 375px;
+        height: 80px;
+        text-align: center;
+        padding-bottom: 60px;
+        margin-bottom: 100px;
+    }
+
+    .cabtion {
+        padding: 0PX;
+    }
+ 
+   
+    
+
+    /* --------------------- FIST end ------------*/
+
+    .service .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 50px;
+    }
+
+    .service .parent .child {
+        width: 90%;
+        background-color: rgb(81, 81, 81);
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    /* ------------------ end --------------*/
+    .client {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .client .child {
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    .client .child h2 {
+        padding-bottom: 15px;
+        color: white;
+    }
+
+    .client .child p {
+        color: white;
+        padding: 0px 50px;
+
+    }
+
+    /* ------------- end --------------- */
+
+    .comunicat>p {
+        color: white;
+        padding: 0px 10px;
+        padding-bottom: 15px;
+    }
+
+    .comunicat .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        padding: 80px 0px;
+        margin: auto;
+
+    }
+
+    .comunicat .parent .child {
+
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 35px;
+        background-color: rgb(81, 81, 81);
+        border-top: red 8px solid;
+        border-bottom: red 8px solid;
+
+    }
+
+
+    .cd130 {
+
+        padding: 0px 0px;
+    }
+
+    .cd130>h6 {
+        margin-left: 115px;
+        text-align: right;
+    }
+
+    .cd131 input {
+        width: 160px;
+        height: 31px;
+        margin: 1px;
+        background-color: rgb(48, 47, 47);
+    }
+
+    .cd132>h6 {
+        color: white;
+        margin: 15px;
+        font-size: 16px;
+
+    }
+
+    .cd132 input {
+        width: 330px;
+        height: 31px;
+        background-color: rgb(48, 47, 47);
+    }
+
+    .cd133 textarea {
+        max-width: 330px;
+        height: 261px;
+        background-color: rgb(48, 47, 47);
+        border: white 1px solid;
+
+    }
+
+
+    .location {
+        margin: auto;
+        margin-top: 25px;
+        width: 85%;
+    }
+
+    /* ------------ end ---------------- */
+
+    .child .contact1 {
+
+        margin-right: auto;
+        color: white;
+        padding: 0px 15px;
+        font-size: 15px;
+
+    }
+
+    .child .contact1>p {
+        width: 300px;
+    }
+
+    .child .contact2 {
+        margin: 15px;
+        padding: 0px 15px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .end {
+        width: 75%;
+        text-align: center;
+        padding: 0px 40px;
+        border-left: 4px red solid;
+        border-right: 4px red solid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto;
+        background-color: rgb(81, 81, 81);
+    
+    }
+    
+
+}
+/* ------------------------------------- THE END --------------------------------------- */
